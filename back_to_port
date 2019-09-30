@@ -1,0 +1,11 @@
+#/bin/zsh
+sudo port install python36
+sudo port install py36-pip
+sudo port install sphinxcontrib
+
+sudo pip install autopep8
+sudo pip install cython==0.26
+sudo pip sphinx
+sudo pip install sphinx
+sudo pip install sphinxcontrib
+
