@@ -1,11 +1,15 @@
 #/bin/zsh
 sudo port install python36
+sudo port select --set python python36
+sudo port select --set python3 python36
+
+
 sudo port install py36-pip
+sudo port select --set pip pip36
 sudo port install sphinxcontrib
 
 sudo pip install autopep8
 sudo pip install cython==0.26
-sudo pip sphinx
 sudo pip install sphinx
-sudo pip install sphinxcontrib
+sudo port install sphinxcontrib
 
