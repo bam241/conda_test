@@ -2,6 +2,12 @@
 sudo pip uninstall cython
 sudo port uninstall python36 py36-pip
 
+sudo pip remove -y cython
+sudo port uninstall py36-pip python36
+
 export CXX=/usr/bin/clang++
 export CC=/usr/bin/clang
 
+cd 
+source miniconda/bin/activate
+cdw cyclus/cyclus
